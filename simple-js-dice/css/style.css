@@ -1,0 +1,22 @@
+#dice {
+  width: 100px;
+  height: 100px;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+}
+
+#dice > .circle {
+  border-radius: 50%;
+  width: 25%;
+  height: 25px;
+  background-color: blue;
+}
